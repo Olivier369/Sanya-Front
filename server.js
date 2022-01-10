@@ -8,7 +8,7 @@ var corsOptions = {
     origin: "127.0.0.1"
 };
 
-app.use(cors(corsOptions));
+// app.use(cors(corsOptions));
 
 app.use(express.json());
 
